@@ -75,4 +75,22 @@ main {
     width: 17rem;
     height: 3rem;
     border-radius: .5rem;
+    cursor: pointer;
+}
+
+.link-btn:hover {
+    background-color: var(--Green);
+    color: var(--Grey700);
+    transition-delay: background-color .5ms, color .5ms;
+}
+
+.link-btn:active {
+    opacity: 50%;
+}
+
+@media (max-width: 375px) {
+    body {
+        min-height: 110svh;
+        padding: 0;
+    }
 }
